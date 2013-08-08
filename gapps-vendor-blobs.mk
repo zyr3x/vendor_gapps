@@ -13,45 +13,48 @@
 # limitations under the License.
 
 # Gapps packages
+PRODUCT_PACKAGES += \
+	Books \
+	Calendar \
+	CalendarProvider \
+	ChromeBookmarksSyncAdapter \
+	Currents \
+	FaceLock \
+	GenieWidget \
+	Gmail2 \
+	GmsCore \
+	GoogleBackupTransport \
+	GoogleContactsSyncAdapter \
+	GoogleEars \
+	GoogleEarth \
+	GoogleFeedback \
+	GoogleLoginService \
+	GooglePartnerSetup \
+	GoogleServicesFramework \
+	GoogleTTS \
+	Hangouts \
+	Keep \
+	LatinImeGoogle \
+	Magazines \
+	Maps \
+	MediaUploader \
+	Music2 \
+	NetworkLocation \
+	OneTimeInitializer \
+	Phonesky \
+	PlayGames \
+	PlusOne \
+	QuickSearchBox \
+	SetupWizard \
+	Street \
+	talkback \
+	Videos \
+	VoiceSearchStub \
+	Wallet \
+	Youtube
+
 PRODUCT_COPY_FILES += \
 	vendor/gapps/proprietary/addon.d/70-gapps.sh:system/addon.d/70-gapps.sh \
-	vendor/gapps/proprietary/app/Books.apk:system/app/Books.apk \
-	vendor/gapps/proprietary/app/Calendar.apk:system/app/Calendar.apk \
-	vendor/gapps/proprietary/app/CalendarProvider.apk:system/app/CalendarProvider.apk \
-	vendor/gapps/proprietary/app/ChromeBookmarksSyncAdapter.apk:system/app/ChromeBookmarksSyncAdapter.apk \
-	vendor/gapps/proprietary/app/Currents.apk:system/app/Currents.apk \
-	vendor/gapps/proprietary/app/FaceLock.apk:system/app/FaceLock.apk \
-	vendor/gapps/proprietary/app/GenieWidget.apk:system/app/GenieWidget.apk \
-	vendor/gapps/proprietary/app/Gmail2.apk:system/app/Gmail2.apk \
-	vendor/gapps/proprietary/app/GmsCore.apk:system/app/GmsCore.apk \
-	vendor/gapps/proprietary/app/GoogleBackupTransport.apk:system/app/GoogleBackupTransport.apk \
-	vendor/gapps/proprietary/app/GoogleContactsSyncAdapter.apk:system/app/GoogleContactsSyncAdapter.apk \
-	vendor/gapps/proprietary/app/GoogleEars.apk:system/app/GoogleEars.apk \
-	vendor/gapps/proprietary/app/GoogleFeedback.apk:system/app/GoogleFeedback.apk \
-	vendor/gapps/proprietary/app/GoogleLoginService.apk:system/app/GoogleLoginService.apk \
-	vendor/gapps/proprietary/app/GooglePartnerSetup.apk:system/app/GooglePartnerSetup.apk \
-	vendor/gapps/proprietary/app/GoogleServicesFramework.apk:system/app/GoogleServicesFramework.apk \
-	vendor/gapps/proprietary/app/GoogleTTS.apk:system/app/GoogleTTS.apk \
-	vendor/gapps/proprietary/app/Hangouts.apk:system/app/Hangouts.apk \
-	vendor/gapps/proprietary/app/Keep.apk:system/app/Keep.apk \
-	vendor/gapps/proprietary/app/LatinImeGoogle.apk:system/app/LatinImeGoogle.apk \
-	vendor/gapps/proprietary/app/Magazines.apk:system/app/Magazines.apk \
-	vendor/gapps/proprietary/app/Maps.apk:system/app/Maps.apk \
-	vendor/gapps/proprietary/app/MediaUploader.apk:system/app/MediaUploader.apk \
-	vendor/gapps/proprietary/app/Music2.apk:system/app/Music2.apk \
-	vendor/gapps/proprietary/app/NetworkLocation.apk:system/app/NetworkLocation.apk \
-	vendor/gapps/proprietary/app/OneTimeInitializer.apk:system/app/OneTimeInitializer.apk \
-	vendor/gapps/proprietary/app/Phonesky.apk:system/app/Phonesky.apk \
-	vendor/gapps/proprietary/app/PlayGames.apk:system/app/PlayGames.apk \
-	vendor/gapps/proprietary/app/PlusOne.apk:system/app/PlusOne.apk \
-	vendor/gapps/proprietary/app/QuickSearchBox.apk:system/app/QuickSearchBox.apk \
-	vendor/gapps/proprietary/app/SetupWizard.apk:system/app/SetupWizard.apk \
-	vendor/gapps/proprietary/app/Street.apk:system/app/Street.apk \
-	vendor/gapps/proprietary/app/talkback.apk:system/app/talkback.apk \
-	vendor/gapps/proprietary/app/Videos.apk:system/app/Videos.apk \
-	vendor/gapps/proprietary/app/VoiceSearchStub.apk:system/app/VoiceSearchStub.apk \
-	vendor/gapps/proprietary/app/Wallet.apk:system/app/Wallet.apk \
-	vendor/gapps/proprietary/app/Youtube.apk:system/app/Youtube.apk \
 	vendor/gapps/proprietary/etc/g.prop:system/etc/g.prop \
 	vendor/gapps/proprietary/etc/permissions/com.google.android.maps.xml:system/etc/permissions/com.google.android.maps.xml \
 	vendor/gapps/proprietary/etc/permissions/com.google.android.media.effects.xml:system/etc/permissions/com.google.android.media.effects.xml \
